@@ -1,0 +1,97 @@
+.introduction h1 {
+    text-align: center;
+    margin-bottom: 20%;
+    padding: 5%;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+#carouselExampleIndicators {
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 33px;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.carousel-indicators {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-indicators>.buttons {
+    justify-self: center;
+    align-self: center;
+    color: white;
+}
+
+.destination-grid {
+    width: 98%;
+    margin-left: 1%;
+    /* height: 3090px ; */
+
+}
+
+.destination-grid h3 {
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.285);
+    text-align: start;
+    padding: 10%;
+    border-radius: 20px;
+}
+
+.col {
+    height: 450px;
+}
+
+.col small {
+    z-index: 1;
+}
+
+#location {
+    z-index: 1;
+}
+
+.linear-gradient-card {
+    /* color: black; */
+    /* background-image: linear-gradient(); */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    padding: 10%;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.contact-form {
+    padding: 5%;
+    background-image: url('backgroundImage.avif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 15px;
+}
+.contact-form label{
+    font-size: 25px;
+    color: white;
+}
+.contact-form-inner-div{
+    background-color: rgba(0, 0, 0, 0.485);
+    padding: 10%;
+    border-radius: 20px;
+}
+.bottom-h2{
+    text-align: center;
+}
+.container h1{
+    left: 0;
+    margin-left: 0;
+    /* margin-right: 5%; */
+    margin-left: -10%;   
+    padding-right: 20%;
+}
